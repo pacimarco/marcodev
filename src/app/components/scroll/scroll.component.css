@@ -1,0 +1,120 @@
+/*Volendo posso inserire un header se metto la gallery in un componente a parte*/
+
+  .header {
+    width: 100%;
+    height: 300px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #30ff19;
+  }
+  
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 0deg, rgb(195,20,50) 0%, rgb(204,18,26) 60%, black 100%);
+
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+  }
+  
+  .col {
+    height: 100%;
+  }
+  
+  .img-container {
+    width: fit-content;
+    height: 100%;
+  }
+  
+  .img-container.left {
+    text-align: right;
+  }
+  
+  .img-container p {
+    position: relative;
+    padding: 5px 0;
+    color: black;
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  #row-1 {
+    height: 200px;
+  }
+  
+  #row-2 {
+    height: 500px;
+  }
+  
+  #row-3 {
+    height: 150px;
+  }
+  
+  #row-4 {
+    height: 400px;
+  }
+  
+  #row-5 {
+    height: 700px;
+  }
+  
+  #row-6 {
+    height: 300px;
+  }
+  
+  #row-7 {
+    height: 200px;
+  }
+  
+  #row-8 {
+    height: 600px;
+  }
+  
+  #row-9 {
+    height: 300px;
+  }
+  
+  #row-10 {
+    height: 500px;
+  }
+  
+  .col:nth-child(1) {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .col:nth-child(2) {
+    flex: 5;
+  }
+  
+  .img-container.right img {
+    clip-path: polygon(100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  
+  .img-container.left img {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  .whitespace {
+    width: 100%;
+    height: 300px;
+  }
+  
